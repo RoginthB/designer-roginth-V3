@@ -1,0 +1,17 @@
+
+.flashScreenLayout{
+   
+    width:80%;
+    margin:auto;
+    height:100vh;
+    overflow:hidden;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+#flashScreenAnim{
+    width:100%;
+    margin:auto;
+    height:90vh;
+    overflow:hidden;
+}
