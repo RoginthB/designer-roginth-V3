@@ -3,12 +3,12 @@ import lottie from 'lottie-web';
 import '../styles/projects.css';
 import handleColor from './handleColor'
 import projectAnim from '../static/104063-dashboard-project-management-kanban-view.json'
-const projects =[{name:'Mi food (dribbble inspiration website)',src:'https://rohinth248.github.io/designer-roginth-V2.0.1/miFood.png',link:'https://rohinth248.github.io/mi-food/'},
-{name:'Instagram Home Page (Popular Website Clone)',src:'https://rohinth248.github.io/designer-roginth-V2.0.1/images/inatagram-clone.png',link:'https://rohinth248.github.io/instagram-home-clone/'},
-{name:'Adobe stock ( Clone website )',src:'https://rohinth248.github.io/designer-roginth-V2.0.1/adobe-stock-clone-img.png',link:'https://rohinth248.github.io/adobe-stock-clone/'},
-{name:'Creating Our college website ( using React Js)',src:'https://rohinth248.github.io/designer-roginth-V2.0.1/kongu-mech.jpg',link:'https://rohinth248.github.io/sample/'},
-{name:'Project Gallery (image gallery website)',src:'https://rohinth248.github.io/designer-roginth-V2.0.1/images/dashboard.png',link:'https://rohinth248.github.io/projectgallery/'},
-{name:'Designerrohinth V1.0.1 (portfolio website)',src:'https://rohinth248.github.io/designer-roginth-V2.0.1/images/designerroginth.png',link:'https://rohinth248.github.io/designerrohinth.tk/'}]
+const projects =[{name:'Kauvery SOS app (MERN fullstack)',src:'https://roginthb.github.io/designer-roginth-V2.0.1/kauverySOS.png',link:'https://kauvery.netlify.app/'},{name:'Favor app (MERN fullstack)',src:'https://roginthb.github.io/designer-roginth-V2.0.1/favor.png',link:'https://favor-app.netlify.app/Post'},{name:'Mi food (dribbble inspiration website)',src:'https://roginthb.github.io/designer-roginth-V2.0.1/miFood.png',link:'https://roginthb.github.io/mi-food/'},
+{name:'Adobe stock ( Clone website )',src:'https://roginthb.github.io/designer-roginth-V2.0.1/adobe-stock-clone-img.png',link:'https://roginthb.github.io/adobe-stock-clone/'},
+{name:'Creating Our college website ( using React Js)',src:'https://roginthb.github.io/designer-roginth-V2.0.1/kongu-mech.jpg',link:'https://roginthb.github.io/sample/'},
+{name:'Instagram Home Page (Popular Website Clone)',src:'https://roginthb.github.io/designer-roginth-V2.0.1/images/inatagram-clone.png',link:'https://roginthb.github.io/instagram-home-clone/'},
+{name:'Project Gallery (image gallery website)',src:'https://roginthb.github.io/designer-roginth-V2.0.1/images/dashboard.png',link:'https://roginthb.github.io/projectgallery/'},
+{name:'Designerrohinth V1.0.1 (portfolio website)',src:'https://roginthb.github.io/designer-roginth-V2.0.1/images/designerroginth.png',link:'https://roginthb.github.io/designerrohinth.tk/'}]
 function Projects() {
   React.useEffect(() => {
     handleColor('Project')
