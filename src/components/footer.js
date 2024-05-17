@@ -10,11 +10,11 @@ const socialMedia = [
     {name:'Linked In ',link:"https://in.linkedin.com/in/roginth-b-35ba211a8",src:'https://img.icons8.com/color/48/000000/twitter-circled--v1.png'},
     {name:'Twitter',link:"https://twitter.com/Rohinth10014070",src:'https://img.icons8.com/color/48/000000/linkedin.png'}]
 const project = [
-    {name:'Web Development',link:'https://github.com/Rohinth248/'},
+    {name:'Web Development',link:'https://github.com/roginthb/'},
     {name:'Graphic Design',link:'https://www.behance.net/rohinthrewa'}
 ]
 const resume = [
-    {name:'Download my resume.',link:'https://drive.google.com/file/d/15vtnNrUIXxT3AeXWur04d9rEr45ZW7tf/view?usp=drivesdk'}
+    {name:'Download my resume.',link:'https://drive.google.com/file/d/1erRNJc2R7QIxdSv-SDFRq6ibm8_c-P4c/view?usp=drivesdk'}
 ]   
 const handleSlideBar=()=>{
     
@@ -34,7 +34,7 @@ function Footer() {
                 <div className='main'>
                     <h4>Roginth B</h4>
                     <p>Designed and built with all the
-                        love in the world by the <a href='https://github.com/Rohinth248/' target='_blank'>Roginth </a>
+                        love in the world by the <a href='https://github.com/Rohinth248/' >Roginth </a>
                         with the help of React JS, CSS,
                         JavaScript, Bootstrap, Noad JS.
                         Code licensed By Roginth @ 2022.
@@ -53,7 +53,7 @@ function Footer() {
                         <h4>Social Media</h4>
                         <ul>
                         {socialMedia.map(data =>(
-                            <a target='_blank' href={data.link}>{data.name}</a>
+                            <a  href={data.link}>{data.name}</a>
                         ))}
                         </ul>
                     </div>
@@ -61,7 +61,7 @@ function Footer() {
                         <h4>Projects</h4>
                         <ul>
                         {project.map(data =>
-                            <a target='_blank' href={data.link}>{data.name}</a>
+                            <a  href={data.link}>{data.name}</a>
                         )}
                         </ul>
                     </div>
@@ -69,7 +69,7 @@ function Footer() {
                         <h4>Resume </h4>
                         <ul>
                         {resume.map(data =>
-                            <a target='_blank'  href={data.link}>{data.name}</a>
+                            <a href={data.link}>{data.name}</a>
                         )}
                         </ul>
                     </div>
@@ -78,10 +78,10 @@ function Footer() {
             <div className='fixed'> <a href='https://rohinth248.github.io/designer-roginth-V2.0.1/'>Go Previous Version </a> </div>
             <div  className='socialMediaSlide'>
             <div id='sidebar' className='socialMedia'>
-            {socialMedia.map(data=>(<a href={data.link} target='_blank'><img src={data.src}/></a>))}       
+            {socialMedia.map(data=>(<a href={data.link} ><img src={data.src} alt={data.name}/></a>))}       
             </div>
             <div className='slideIcon' onClick={handleSlideBar}>
-            <img id='forwardIcon'src="https://img.icons8.com/fluency/28/null/forward.png"/>
+            <img id='forwardIcon'src="https://img.icons8.com/fluency/28/null/forward.png"alt='forward'/>
             </div>
             </div>
             
