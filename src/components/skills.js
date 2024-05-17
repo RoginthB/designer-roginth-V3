@@ -6,7 +6,7 @@ import handleColor from './handleColor'
 const icons = [
 {name:'Python', src:"https://img.icons8.com/color/48/000000/python--v1.png"},
 
-{name:'Java', src:"https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"},
+{name:'React Native', src:"https://img.icons8.com/color/48/000000/react-native.png"},
 
 {name:'JavaScript', src:"https://img.icons8.com/color/48/000000/javascript--v1.png"},
 
@@ -24,7 +24,7 @@ const icons = [
 
 {name:'Mongo DB ', src:"https://img.icons8.com/color/48/000000/mongodb.png"},
 
-{name:'Azure ', src:"https://img.icons8.com/color/48/000000/azure-1.png"},
+{name:'C# ', src:"https://img.icons8.com/color/240/c-sharp-logo-2.png"},
 
 {name:'Google cloud platform ', src:"https://img.icons8.com/color/48/000000/google-cloud-platform.png"},
 
@@ -55,7 +55,7 @@ function Skills() {
               section more often.</p>
 
               <div className='skillsContainer'>
-                {icons.map(data=>(<div className='skillsBox'><div><img src={data.src} alt='images'/></div><p>{data.name}</p></div>))}
+                {icons.map(data=>(<div className='skillsBox px-5'><div><img src={data.src} alt='images'/></div><p>{data.name}</p></div>))}
               </div>
           </div>
         </div>
