@@ -1,7 +1,6 @@
 import React from 'react'
 import "../styles/navBar.css"
 import { Link } from 'react-router-dom';
-import handleColor from './handleColor';
 const list = [{ path: '/', name: 'Home' }, { path: '/Skills', name: 'Skills' }, { path: '/Project', name: 'Project' }, { path: '/Experience', name: 'Experience' }, { path: '/About', name: 'About' }]
 
 
@@ -36,8 +35,8 @@ function Navbar() {
               alt='images' />
           </button>
           <a className='btn'
-            href='https://drive.google.com/file/d/15vtnNrUIXxT3AeXWur04d9rEr45ZW7tf/view?usp=drivesdk'
-            target='_blank' > resume
+            href='https://drive.google.com/file/d/1erRNJc2R7QIxdSv-SDFRq6ibm8_c-P4c/view?usp=drivesdk'
+            > resume
           </a>
         </div >
       </div>
