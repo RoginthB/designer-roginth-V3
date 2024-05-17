@@ -16,11 +16,11 @@ function Experince() {
         <div className='experienceContent'>
           <div className='experienceCard' data-aos="zoom-in-left">
             <div className='cardHeading'>
-              <h4>Assistant System Engineer - Trainee</h4>
+              <h4>System Engineer</h4>
               <p>July '2022 - Now</p>
             </div>
             <div className='cardImage'>
-              <img src='https://www.tcs.com/content/dam/tcs/images/Newtcslogo/tcs-logo-tata-blue-1x-dec2021.png' alt='tcs' />
+              <img src='https://th.bing.com/th/id/OIP.WyZkylBpVdqWpKUCCwYzGAHaD2?rs=1&pid=ImgDetMain' alt='tcs' />
             </div>
             <div className='cardBody'>
               <p>Brigade Bhuwalka Icon, Old Khata No 70.
